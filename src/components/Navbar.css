@@ -1,0 +1,36 @@
+.logo {
+    float: 10;
+    width: 100px;
+    /* Largeur souhaitée */
+    height: 70px;
+    /* garde les proportions */
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 100px;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 40px;
+    font-size: 13px;
+}
+
+.nav-connect {
+    padding: 5px 15px;
+    border-radius: 20px;
+    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+
+.nav-connect:hover {
+    transform: scale(1.1);
+}
