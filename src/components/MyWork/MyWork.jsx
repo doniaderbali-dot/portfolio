@@ -2,7 +2,6 @@ import React from 'react'
 import './MyWork.css'
 import theme_pattern from '../../assets/theme_pattern.svg'
 import mywork_data from '../../assets/mywork_data'
-import arrow_icon from '../../assets/arrow_icon.svg'
 const MyWork = () => {
     return (
         <div id='work' className='mywork'>
@@ -14,9 +13,7 @@ const MyWork = () => {
                 {mywork_data.map((work, index) => {
                     return <img key={index} src={work.w_img} alt='' />
                 })}
-                <div className="mywork-showmore">
-                    <img src="" alt="" />
-                </div>
+
 
             </div>
 

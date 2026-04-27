@@ -9,7 +9,6 @@ const Footer = () => {
             <div className="footer-top">
                 <div className="footer-top-left">
                     <img src={logo1} alt="" />
-                    <p>Sono un frontend developer dall’Italia con 2 anni di esperienza.</p>
                 </div>
                 <div className="footer-top-right">
                     <div className="footer-email-input">
